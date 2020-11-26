@@ -1,6 +1,11 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark" class="shadow">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      variant="dark"
+      style="box-shadow:2px 2px 10px #000;z-index: 10;"
+      fixed="top">
       <b-navbar-brand to="/">
         <img src="../../public/logoNav.png">
       </b-navbar-brand>
